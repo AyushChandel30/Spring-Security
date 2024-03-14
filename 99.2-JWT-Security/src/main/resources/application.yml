@@ -1,0 +1,16 @@
+# datasource properties
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    password: <your_password_here>
+    url: <your_database_url_here>
+    username: <your_username_here>
+# to create table in the database(if not already created)    
+  jpa:
+    hibernate:
+      ddl-auto: update
+ # to show SQL queries      
+    show-sql: true    
+    
+server:
+  port: 9090

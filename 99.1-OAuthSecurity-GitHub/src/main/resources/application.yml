@@ -1,0 +1,13 @@
+server:
+  port: 9090
+  
+spring:
+  security:
+    oauth2:
+      client:
+        registration:
+          github:
+            clientId: <your_github_client_id_here>
+            clientSecret: <your_github_client_secret_here>
+
+  
